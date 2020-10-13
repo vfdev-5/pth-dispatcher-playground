@@ -1,5 +1,5 @@
 #include <torch/torch.h>
-#include <tv/power3.h>
+#include <tv/vision.h>
 
 
 int main() {

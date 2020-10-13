@@ -5,6 +5,8 @@ set(TV_VERSION 0.7.0)
 
 option(WITH_CUDA "Enable CUDA support" OFF)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CUDA_FLAGS} -O3")
+
 if(WITH_CUDA)
   enable_language(CUDA)
   add_definitions(-D__CUDA_NO_HALF_OPERATORS__)

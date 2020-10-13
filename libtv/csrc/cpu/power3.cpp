@@ -8,9 +8,9 @@ at::Tensor power3_cpu(const at::Tensor & input) {
 namespace tv
 {
 
-int dummy()
-{
-  return 12;
-}
+//int dummy()
+//{
+//  return 12;
+//}
 
 }
